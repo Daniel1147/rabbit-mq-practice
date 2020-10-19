@@ -6,4 +6,4 @@
 ## TODO
 - [ ] add timezone into docker
 
-## [Source of Example](https://www.rabbitmq.com/)
+## [Source of Examples](https://www.rabbitmq.com/)
