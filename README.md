@@ -10,6 +10,10 @@
 ### dispatching tasks fairly
 ![fair dispatching](images/example2-dispatch.JPG)
 
+## Example 3
+### broadcast messages
+![broadcast](images/example3.JPG)
+
 ## TODO
 - [ ] add timezone into docker
 
