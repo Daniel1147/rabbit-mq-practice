@@ -30,4 +30,8 @@
 
 #### list detail of queues
 > $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl list\_queues name messages\_ready messages\_unacknowledged
+
+#### list bindings
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl list\_bindings
+
 ## [Source of Examples](https://www.rabbitmq.com/)
