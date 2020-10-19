@@ -14,6 +14,10 @@
 ### broadcast messages
 ![broadcast](images/example3.JPG)
 
+## Example 4
+### using direct to bind queues
+![direct-exchange](images/example4.JPG)
+
 ## TODO
 - [ ] add timezone into docker
 
