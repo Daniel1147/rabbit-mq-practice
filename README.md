@@ -13,4 +13,12 @@
 ## TODO
 - [ ] add timezone into docker
 
+## Docker
+
+### Using `rabbitmqctl` in the Container
+
+```
+$ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl <command>
+```
+
 ## [Source of Examples](https://www.rabbitmq.com/)
