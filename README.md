@@ -17,8 +17,17 @@
 
 ### Using `rabbitmqctl` in the Container
 
-```
-$ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl <command>
-```
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl \<command\>
 
+#### show status
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl status
+
+#### list exchanges
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl list\_exchanges
+
+#### list queues
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl list\_queues
+
+#### list detail of queues
+> $ docker exec rabbitmq su rabbitmq -- /opt/rabbitmq/sbin/rabbitmqctl list\_queues name messages\_ready messages\_unacknowledged
 ## [Source of Examples](https://www.rabbitmq.com/)
