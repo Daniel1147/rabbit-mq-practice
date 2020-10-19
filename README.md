@@ -15,8 +15,12 @@
 ![broadcast](images/example3.JPG)
 
 ## Example 4
-### using direct to bind queues
+### direct exchange
 ![direct-exchange](images/example4.JPG)
+
+## Example 5
+### topic exchange
+![topic-exchange](images/example5.JPG)
 
 ## TODO
 - [ ] add timezone into docker
